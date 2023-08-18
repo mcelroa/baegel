@@ -12,14 +12,23 @@
     <div class="navbar">
       <h2>Baegel.</h2>
       <div class="nav-list">
-        <a href="#">Recipes</a>
+        <a href="#recipes">Recipes</a>
         <a href="#">Routines</a>
       </div>
     </div>
 
-    <div class="recipes">
+    <div class="recipes" id="recipes">
       <div class="title">Recipes</div>
-      <button><i class="fa-solid fa-plus"></i></button>
+      <button class="add-button">
+        <a href="addRecipe.html"><i class="fa-solid fa-plus"></i></a>
+      </button>
+      <div class="recipes-list">
+        <div class="recipe-card">
+          <img src="images/carbonara.jpg" alt="" />
+          <h1>Carbonara</h1>
+          <button><a href="ingredients.html">Ingredients</a></button>
+        </div>
+      </div>
     </div>
 
     <script src="" async defer></script>

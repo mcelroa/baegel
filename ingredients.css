@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.ingredients-card {
+  width: 300px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.ingredients-card h2 {
+  color: white;
+  background-color: black;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.ingredients {
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+}
+
+.ingredients ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredients ul li {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.ingredients ul li:hover {
+  cursor: pointer;
+}
