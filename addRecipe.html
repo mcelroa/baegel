@@ -19,9 +19,11 @@
       <form action="">
         <h2>New Recipe</h2>
         <input type="text" name="title" placeholder="Name" />
-        <label for="img">Select image:</label>
-        <input type="file" id="img" name="img" accept="image/*" />
-        <input type="submit" />
+        <label for="img">Image</label>
+        <input type="file" accept="image/*" capture="camera" />
+        <label for="ingredients">Ingredients</label>
+        <textarea name="ingredients" id="" cols="30" rows="5"></textarea>
+        <input type="submit" class="submit" />
       </form>
     </div>
   </body>
